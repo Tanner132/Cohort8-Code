@@ -1,8 +1,45 @@
-body {
+.Logo-top-of-screen{
+   
+}
+
+h1{
     text-align: center;
-    Background-image: url("https://i.imgur.com/RKCHtyT.jpg");
-    background-position: center;
-    background-size: 75%;
-    background-repeat: no-repeat;
-    border-bottom-color: antiquewhite;
+}
+h2{
+    text-align: center;
+}
+
+.carousel-inner{
+    background-image: cover;
+    height: 700px;
+}
+
+p{
+        text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+.Logo-image{
+    width: 300px;
+    height:50px;
+    position: fixed;
+}
+.container-1{
+    border: 1px solid black;
+    border-radius:10px;  
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px
+}
+.box-1{
+    flex: 1;
+}
+.box-2{
+    flex: 2;
+}
+.box-3{
+    flex: 3;
 }
